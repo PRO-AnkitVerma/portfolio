@@ -1,15 +1,11 @@
 import React from "react";
+import Home from "../../components/Home";
 
 const HomePage = () => {
     return (
-        <div
-            style={{
-                backgroundColor: "red",
-                height: "500px",
-            }}
-        >
-            HomePage
-        </div>
+        <>
+            <Home />
+        </>
     );
 };
 
