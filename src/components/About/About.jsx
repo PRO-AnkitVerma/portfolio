@@ -25,8 +25,8 @@ const skills = [
 ];
 
 const About = () => {
-    const skillsElement = skills.map((skill) => (
-        <div className="skill-item mb-4">
+    const skillsElement = skills.map((skill, idx) => (
+        <div className="skill-item mb-4" key={idx}>
             <h3 className="fs-6">{skill.name}</h3>
             <Progressbar height={5} width={skill.ratings * 10} />
         </div>
