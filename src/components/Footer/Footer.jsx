@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer class="footer border-top py-4">
-            <div class="container-lg">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="m-0 text-center text-muted">
+        <footer className="footer border-top py-4">
+            <div className="container-lg">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <p className="m-0 text-center text-muted">
                             &copy; 2022 Ankit Verma
                         </p>
                     </div>
