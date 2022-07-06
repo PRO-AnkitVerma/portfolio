@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
                             <img
                                 src="assets/img/profile.png"
                                 className="rounded-circle mw-100"
-                                alt="profile image"
+                                alt="profile"
                             />
                         </div>
                     </div>
@@ -27,12 +28,12 @@ const Home = () => {
                                 aperiam corporis impedit nisi maiores culpa
                                 tempora dicta hic.
                             </p>
-                            <a
-                                href="#portfolio"
+                            <Link
+                                to="/portfolio"
                                 className="btn btn-danger px-3 mt-3"
                             >
                                 My Work
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,12 +1,46 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+    const location = useLocation();
+
+    const links = [
+        {
+            title: "Home",
+            path: "/",
+        },
+        {
+            title: "Portfolio",
+            path: "/portfolio",
+        },
+        {
+            title: "Contact",
+            path: "/contact",
+        },
+    ];
+
+    const linkElements = links.map((link, idx) => (
+        <li key={idx}>
+            <Link
+                to={link.path}
+                className={
+                    "dropdown-item " +
+                    (location.pathname === link.path
+                        ? "text-danger fw-bold"
+                        : "")
+                }
+            >
+                {link.title}
+            </Link>
+        </li>
+    ));
+
     return (
         <nav className="navbar navbar-light fixed-top bg-light shadow-sm">
             <div className="container-lg">
-                <a className="navbar-brand text-danger fw-bold fs-4" href="#">
+                <Link className="navbar-brand text-danger fw-bold fs-4" to="/">
                     A.V
-                </a>
+                </Link>
                 <div className="dropdown">
                     <button
                         className="btn btn-secondary btn-danger px-3"
@@ -21,39 +55,7 @@ const Navbar = () => {
                         className="dropdown-menu dropdown-menu-end"
                         aria-labelledby="dropdownMenuButton1"
                     >
-                        <li>
-                            <a className="dropdown-item" href="#home">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="#about">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="#services">
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="portfolio.html">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                className="dropdown-item"
-                                href="contact.html#testimonials"
-                            >
-                                Testimonials
-                            </a>
-                        </li>
-                        <li>
-                            <a className="dropdown-item" href="contact.html">
-                                Contact
-                            </a>
-                        </li>
+                        {linkElements}
                     </ul>
                 </div>
             </div>

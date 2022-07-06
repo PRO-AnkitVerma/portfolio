@@ -15,6 +15,8 @@ const Project = (props) => {
                     <a
                         href={project.githubLink}
                         className="text-danger text-decoration-none"
+                        rel="noopener noreferrer"
+                        target="_blank"
                     >
                         GitHub Link
                     </a>

@@ -5,27 +5,27 @@ const projects = [
     {
         pic: "1.jpg",
         title: "Team work",
-        githubLink: "",
+        githubLink: "https:www.github.com",
     },
     {
         pic: "2.jpg",
         title: "Team work",
-        githubLink: "",
+        githubLink: "https:www.github.com",
     },
     {
         pic: "3.jpg",
         title: "Team work",
-        githubLink: "",
+        githubLink: "https:www.github.com",
     },
     {
         pic: "4.jpg",
         title: "Team work",
-        githubLink: "",
+        githubLink: "https:www.github.com",
     },
     {
         pic: "5.jpg",
         title: "Team work",
-        githubLink: "",
+        githubLink: "https:www.github.com",
     },
 ];
 

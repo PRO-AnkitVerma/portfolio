@@ -64,6 +64,7 @@ const About = () => {
                                     href="https://docs.google.com/document/d/1Txqx9LVJM1v9Gwylns4WhLdLlxWWyYnLPDLStSouyJE/edit?usp=sharing"
                                     className="btn px-3 btn-danger me-5"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     Download CV
                                 </a>
@@ -72,6 +73,7 @@ const About = () => {
                                         href="https://github.com/PRO-AnkitVerma"
                                         className="text-dark me-2"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         <i className="fab fa-github"></i>
                                     </a>
@@ -79,6 +81,7 @@ const About = () => {
                                         href="https://www.linkedin.com/in/ankit-verma-209171/"
                                         className="text-dark me-2"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         <i className="fab fa-linkedin-in"></i>
                                     </a>
