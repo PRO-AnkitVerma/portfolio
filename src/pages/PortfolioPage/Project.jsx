@@ -9,6 +9,11 @@ const Project = (props) => {
                     src={`assets/img/portfolio/${project.pic}`}
                     className="w-100 img-thumbnail"
                     alt="portfolio item"
+                    style={{
+                        objectFit: "none",
+                        objectPosition: "center",
+                        height: "200px",
+                    }}
                 />
                 <h3 className="text-capitalize fs-5 my-2">{project.title}</h3>
                 <p className="mb-4">

@@ -45,17 +45,14 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="about-text">
-                            <h3 className="fs-4 mb-3">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </h3>
+                            <h3 className="fs-4 mb-3">Myself, </h3>
                             <p className="text-muted">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Repudiandae, libero natus!
-                                Nulla quod quas voluptates, unde quaerat ex
-                                magni iste? Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Repudiandae,
-                                libero natus! Nulla quod quas voluptates, unde
-                                quaerat ex magni iste?
+                                an IT undergrad who is curious about learning
+                                and exploring new technologies. Trying out and
+                                building stuffs such as web apps and mobile apps
+                                with latest technolgies - such as React, NodeJs,
+                                Django, Kotlin, Firebase etc. <br />
+                                Checkout my resume to learn more about me.
                             </p>
                         </div>
                         <div className="row">

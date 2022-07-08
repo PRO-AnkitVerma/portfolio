@@ -3,29 +3,29 @@ import Project from "./Project";
 
 const projects = [
     {
-        pic: "1.jpg",
-        title: "Team work",
-        githubLink: "https:www.github.com",
+        pic: "tictactoe.png",
+        title: "TicTacToe",
+        githubLink: "https://github.com/PRO-AnkitVerma/TicTacToe",
     },
     {
-        pic: "2.jpg",
-        title: "Team work",
-        githubLink: "https:www.github.com",
+        pic: "vidyam.jpeg",
+        title: "ExamShield (Vidyam)",
+        githubLink: "https://github.com/PRO-AnkitVerma/ExamShield",
     },
     {
-        pic: "3.jpg",
-        title: "Team work",
-        githubLink: "https:www.github.com",
+        pic: "meme.png",
+        title: "Meme Generator",
+        githubLink: "https://github.com/PRO-AnkitVerma/meme-generator",
     },
     {
-        pic: "4.jpg",
-        title: "Team work",
-        githubLink: "https:www.github.com",
+        pic: "airbnb.png",
+        title: "AirBnB Experience Page Design Clone",
+        githubLink: "https://github.com/PRO-AnkitVerma/airbnb-exp-page-clone",
     },
     {
-        pic: "5.jpg",
-        title: "Team work",
-        githubLink: "https:www.github.com",
+        pic: "android.png",
+        title: "NewsApp",
+        githubLink: "https://github.com/PRO-AnkitVerma/NewsApp",
     },
 ];
 

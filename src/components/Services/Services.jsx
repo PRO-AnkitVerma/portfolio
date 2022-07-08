@@ -5,17 +5,18 @@ const services = [
     {
         icon: "code",
         title: "Web Development",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        description: "React ● NodeJs ● AngularJs ● Python ● CSS/JS",
     },
     {
         icon: "lightbulb",
         title: "Creative Design",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        description:
+            "Brainstorming Ideas & Designing Efficient Solutions ● Workflows ● ",
     },
     {
-        icon: "image",
-        title: "Photoshop",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        icon: "mobile",
+        title: "Mobile",
+        description: "Android ● Flutter ● Firebase ● Java ● Kotlin",
     },
 ];
 

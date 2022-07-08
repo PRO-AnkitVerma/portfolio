@@ -9,7 +9,8 @@ const Home = () => {
                     <div className="col-md-6 mt-5 mt-md-0">
                         <div className="home-img text-center">
                             <img
-                                src="assets/img/profile.png"
+                                src="assets/img/profile.jpg"
+                                height="373px"
                                 className="rounded-circle mw-100"
                                 alt="profile"
                             />
@@ -19,14 +20,13 @@ const Home = () => {
                         <div className="home-text">
                             <p className="text-muted mb-1">Hello I'm</p>
                             <h1 className="text-danger text-uppercase fs-1 fw-bold">
-                                Web Developer
+                                Ankit Verma
                             </h1>
-                            <h2 className="fs-4">Ankit Verma</h2>
+                            <h2 className="fs-4">Android and Web Developer</h2>
                             <p className="mt-4 text-muted">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Explicabo sapiente nemo
-                                aperiam corporis impedit nisi maiores culpa
-                                tempora dicta hic.
+                                Love to transform ideas into full-fledged
+                                solutions. <br />
+                                Checkout my latest works here
                             </p>
                             <Link
                                 to="/portfolio"
